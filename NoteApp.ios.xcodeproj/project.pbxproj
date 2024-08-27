@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC00229D2C7BC8680082954E /* ScreenNoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00229C2C7BC8680082954E /* ScreenNoteList.swift */; };
+		BC00229F2C7BC8A20082954E /* ViewModelNoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00229E2C7BC8A20082954E /* ViewModelNoteList.swift */; };
+		BC0022A32C7BD37B0082954E /* NoteTextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0022A22C7BD37B0082954E /* NoteTextFieldState.swift */; };
+		BC0022A52C7BD4440082954E /* ViewModelAddEditNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0022A42C7BD4440082954E /* ViewModelAddEditNote.swift */; };
+		BC0022A72C7BD58B0082954E /* ScreenAddEditNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0022A62C7BD58B0082954E /* ScreenAddEditNote.swift */; };
+		BC2E79182C7A820500020CC0 /* StateNoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E79172C7A820500020CC0 /* StateNoteList.swift */; };
+		BC2E791C2C7A833E00020CC0 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E791B2C7A833E00020CC0 /* Note.swift */; };
+		BC2E791F2C7A849000020CC0 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E791E2C7A849000020CC0 /* OrderType.swift */; };
+		BC2E79212C7A85B200020CC0 /* NoteOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E79202C7A85B200020CC0 /* NoteOrder.swift */; };
+		BC2E79242C7A865B00020CC0 /* OrderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E79232C7A865B00020CC0 /* OrderSection.swift */; };
+		BC2E79262C7A86D700020CC0 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E79252C7A86D700020CC0 /* RadioButton.swift */; };
+		BC2E79282C7A8BCA00020CC0 /* NoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E79272C7A8BCA00020CC0 /* NoteItem.swift */; };
 		BCB25B062C793E2900694F0D /* NoteApp_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB25B052C793E2900694F0D /* NoteApp_iosApp.swift */; };
 		BCB25B082C793E2900694F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB25B072C793E2900694F0D /* ContentView.swift */; };
 		BCB25B0A2C793E2A00694F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB25B092C793E2A00694F0D /* Assets.xcassets */; };
 		BCB25B0D2C793E2A00694F0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB25B0C2C793E2A00694F0D /* Preview Assets.xcassets */; };
+		BCBB2FA22C7E691400406F9E /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBB2FA12C7E691400406F9E /* ColorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC00229C2C7BC8680082954E /* ScreenNoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenNoteList.swift; sourceTree = "<group>"; };
+		BC00229E2C7BC8A20082954E /* ViewModelNoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelNoteList.swift; sourceTree = "<group>"; };
+		BC0022A22C7BD37B0082954E /* NoteTextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTextFieldState.swift; sourceTree = "<group>"; };
+		BC0022A42C7BD4440082954E /* ViewModelAddEditNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelAddEditNote.swift; sourceTree = "<group>"; };
+		BC0022A62C7BD58B0082954E /* ScreenAddEditNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenAddEditNote.swift; sourceTree = "<group>"; };
+		BC2E79172C7A820500020CC0 /* StateNoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateNoteList.swift; sourceTree = "<group>"; };
+		BC2E791B2C7A833E00020CC0 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		BC2E791E2C7A849000020CC0 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		BC2E79202C7A85B200020CC0 /* NoteOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteOrder.swift; sourceTree = "<group>"; };
+		BC2E79232C7A865B00020CC0 /* OrderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSection.swift; sourceTree = "<group>"; };
+		BC2E79252C7A86D700020CC0 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		BC2E79272C7A8BCA00020CC0 /* NoteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItem.swift; sourceTree = "<group>"; };
 		BCB25B022C793E2900694F0D /* NoteApp.ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteApp.ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB25B052C793E2900694F0D /* NoteApp_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteApp_iosApp.swift; sourceTree = "<group>"; };
 		BCB25B072C793E2900694F0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BCB25B092C793E2A00694F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB25B0C2C793E2A00694F0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCBB2FA12C7E691400406F9E /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +58,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC0022A02C7BD3550082954E /* add_edit_note */ = {
+			isa = PBXGroup;
+			children = (
+				BC0022A12C7BD3660082954E /* components */,
+				BC0022A22C7BD37B0082954E /* NoteTextFieldState.swift */,
+				BC0022A42C7BD4440082954E /* ViewModelAddEditNote.swift */,
+				BC0022A62C7BD58B0082954E /* ScreenAddEditNote.swift */,
+			);
+			path = add_edit_note;
+			sourceTree = "<group>";
+		};
+		BC0022A12C7BD3660082954E /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		BC2E79152C7A815000020CC0 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				BC0022A02C7BD3550082954E /* add_edit_note */,
+				BC2E79162C7A815B00020CC0 /* note_list */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		BC2E79162C7A815B00020CC0 /* note_list */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E79222C7A864900020CC0 /* components */,
+				BC2E79172C7A820500020CC0 /* StateNoteList.swift */,
+				BC00229C2C7BC8680082954E /* ScreenNoteList.swift */,
+				BC00229E2C7BC8A20082954E /* ViewModelNoteList.swift */,
+			);
+			path = note_list;
+			sourceTree = "<group>";
+		};
+		BC2E79192C7A823200020CC0 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E791D2C7A848200020CC0 /* utils */,
+				BC2E791A2C7A823A00020CC0 /* model */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		BC2E791A2C7A823A00020CC0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E791B2C7A833E00020CC0 /* Note.swift */,
+				BCBB2FA12C7E691400406F9E /* ColorModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BC2E791D2C7A848200020CC0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E791E2C7A849000020CC0 /* OrderType.swift */,
+				BC2E79202C7A85B200020CC0 /* NoteOrder.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		BC2E79222C7A864900020CC0 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E79232C7A865B00020CC0 /* OrderSection.swift */,
+				BC2E79252C7A86D700020CC0 /* RadioButton.swift */,
+				BC2E79272C7A8BCA00020CC0 /* NoteItem.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		BCB25AF92C793E2900694F0D = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +152,10 @@
 		BCB25B042C793E2900694F0D /* NoteApp.ios */ = {
 			isa = PBXGroup;
 			children = (
-				BCB25B052C793E2900694F0D /* NoteApp_iosApp.swift */,
+				BC2E79192C7A823200020CC0 /* domain */,
+				BC2E79152C7A815000020CC0 /* presentation */,
 				BCB25B072C793E2900694F0D /* ContentView.swift */,
+				BCB25B052C793E2900694F0D /* NoteApp_iosApp.swift */,
 				BCB25B092C793E2A00694F0D /* Assets.xcassets */,
 				BCB25B0B2C793E2A00694F0D /* Preview Content */,
 			);
@@ -137,8 +240,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2E79212C7A85B200020CC0 /* NoteOrder.swift in Sources */,
+				BC00229D2C7BC8680082954E /* ScreenNoteList.swift in Sources */,
+				BC00229F2C7BC8A20082954E /* ViewModelNoteList.swift in Sources */,
+				BC0022A52C7BD4440082954E /* ViewModelAddEditNote.swift in Sources */,
+				BC2E79242C7A865B00020CC0 /* OrderSection.swift in Sources */,
+				BC2E791F2C7A849000020CC0 /* OrderType.swift in Sources */,
+				BC2E79282C7A8BCA00020CC0 /* NoteItem.swift in Sources */,
+				BC2E79182C7A820500020CC0 /* StateNoteList.swift in Sources */,
 				BCB25B082C793E2900694F0D /* ContentView.swift in Sources */,
+				BC0022A72C7BD58B0082954E /* ScreenAddEditNote.swift in Sources */,
 				BCB25B062C793E2900694F0D /* NoteApp_iosApp.swift in Sources */,
+				BC2E791C2C7A833E00020CC0 /* Note.swift in Sources */,
+				BC2E79262C7A86D700020CC0 /* RadioButton.swift in Sources */,
+				BC0022A32C7BD37B0082954E /* NoteTextFieldState.swift in Sources */,
+				BCBB2FA22C7E691400406F9E /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
