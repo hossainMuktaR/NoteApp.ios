@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -45,7 +45,24 @@
 		BCB25B092C793E2A00694F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB25B0C2C793E2A00694F0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCBB2FA12C7E691400406F9E /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		BCE9DC882CBF964600B7F341 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BCE9DC8B2CBF96D300B7F341 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BCE9DC902CBF97C100B7F341 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"edit-screen.png",
+				"home-screen.png",
+			);
+			target = BCB25B012C793E2900694F0D /* NoteApp.ios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BCE9DC892CBF969000B7F341 /* docs */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (BCE9DC902CBF97C100B7F341 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = docs; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BCB25AFF2C793E2900694F0D /* Frameworks */ = {
@@ -136,6 +153,9 @@
 		BCB25AF92C793E2900694F0D = {
 			isa = PBXGroup;
 			children = (
+				BCE9DC8B2CBF96D300B7F341 /* LICENSE */,
+				BCE9DC892CBF969000B7F341 /* docs */,
+				BCE9DC882CBF964600B7F341 /* README.md */,
 				BCB25B042C793E2900694F0D /* NoteApp.ios */,
 				BCB25B032C793E2900694F0D /* Products */,
 			);
